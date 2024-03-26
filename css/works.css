@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* image modal end */
+/* .img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+} */
+
+/* 이미지 클릭시,밝기조절 */
+/* .img:hover {opacity: 0.8;} */
+
+/* .img02{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+} */
+
+/* 이미지 클릭시,밝기조절 */
+/* .img02:hover {opacity: 0.8;} */
+
+/* .modal{
+    display: none; 
+    모달창 숨겨놓기
+    position: fixed;
+    z-index: 1;
+    모달창을 제일 앞에 두기
+    padding-top: 100pxx;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    스크롤 허용 auto
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* 모달창 이미지 */
+/* .modal_content{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    animation-name: zoom ;
+    animation-duration: 0.8s;
+    z-index: 1;
+} */
+
+/* 모달창 애니메이션 추가 */
+/* @keyframes zoom{
+    from { transform: scale(0);}
+    to{transform: scale(1);}
+} */
+
+/* 모달 닫기 버튼 꾸미기 */
+/* .close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+} */
+
+/* .close:hover, .close:focus{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+
+
+.works_wrap{
+    width: 780px;
+    height: 630px;
+    background-color: darkgray;
+    margin: 30px auto;
+    overflow: auto;
+    position: relative;
+}
+
+.works_title{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.works{
+    width: 750px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.works ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.works ul > li > a{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #654848;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+/* .works ul > li > a{
+    background: url(../images/works/ulsan.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.works ul > li > a{
+    overflow: hidden;
+    display: block;
+}
+.works ul > li > a img{
+    width: 200px;
+    height: 200px;
+}
+.works ul > li > a:hover{
+    transform: scale(1.1, 1.1);
+}
+

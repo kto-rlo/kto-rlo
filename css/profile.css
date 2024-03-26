@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/* profile_detail */
+
+.profile_detail > ul > li > i{
+    font-size: 16px;
+    padding: 10px;
+    /* background-color: #2086BF; */
+}
+
+.profile_detail > ul > li > a{
+    font-size: 20px;
+    color: #2F2879;
+}
+.profile_detail p{
+    font-size: 28px;
+    color: #2086BF;
+    border-bottom: 1px solid #2086BF;
+    margin-bottom: 20px;
+}
+.contents_container_profile{
+    width: 821px;
+    height: 696px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.contents_profile_detail{
+    width: 750px;
+    height: 656px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 30px;
+}
+
+.contents_profile_img{
+    width: 245px;
+    height: 230px;
+    background-image: url(../images/profile.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.contents_profile_introduce{
+    width: 480px;
+    height: 460px;
+    /* background-color: #d9d9d9; */
+}
+
+.contents_profile_introduce > ul > li{
+    margin-bottom: 20px;
+    
+}
+
+.contents_profile_introduce > ul > li > a{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    color: #2086BF;
+}
+
+ .contents_profile_introduce ol> li{
+    list-style-type: disc;
+    list-style-position:inside;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
