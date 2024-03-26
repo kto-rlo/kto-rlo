@@ -1,12 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최정은 포트폴리오</title>
+
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/cywrold.ico">
+    <!-- 파비콘을 직접 만들 경우 16x16 크기의 이미지 파일로 만들며 확장자는 .ico로 생성해야 한다. -->
+
+    <!--  링크 공유 시 보이는 미리보기 이미지 및 설명 적용 -->
+    <meta property="og:image" content="./images/home.jpg">  
+    <!-- //미리보기 될 이미지 -->
+	<meta property="og:title" content="최정은 자기소개페이지">
+    <!-- 타이틀 -->
+	<meta property="og:description" content="최정은 포트폴리오 입니다.">
+    <!-- 페이지 요약 -->
 </head>
+
 <body>
-  <p>Hello, World!</p>
+  <div id="wrap">
+    <div class="wrap_container1">
+      <div class="wrap_container2">
+          <header id="header">
+            <ul>
+              <li><a href="./index.html">홈</a></li>
+              <li><a href="./profile.html">프로필</a></li>
+              <li><a href="./works.html">포트폴리오</a></li>
+              <li><a href="#">그래픽디자인</a></li>
+            </ul>
+          </header>
+        <!-- //header -->
+    
+        <article id="profile">
+            <h4>TODAY 2024 | BIRTH 19980813</h4>
+            <div class="profile_container">
+              <div class="profile_detail">
+                <div class="profile_img"></div>
+                <div class="today_is">
+                  Today is...<span>👔구직중</span>
+                </div>
+                <div class="introduce">
+                  <p>말해줄래요..?<br>
+
+                  어떻게 하면 입사 할 수 있는지 궁금해<br>
+
+                  __ ㆀ● ''<br>
+                  __ ┏■┛ 열심히 할 수 있는데...<br>
+                  ____┛┓</p>
+                </div>
+                <div class="friends">
+                  <select name="1chon" id="1chon"> 일촌 파도타기
+                    <option class="1" selected>*일촌 파도타기</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        </article>
+        <!-- //slider -->
+    
+        <main id="contents">
+            <h2>최정은의 포트폴리오</h2>
+            <div class="contents_container">
+              <div class="contents_detail">
+                <div class="update_news">
+                  <ol class="update_news_name"><a href="#">UPdate news</a>
+                    <li><a href="#">[스크랩] ‘큐브엔터테인먼트’</a></li>
+                    <li><a href="#">[스크랩] ‘큐브엔터테인먼트’</a></li>
+                    <li><a href="#">[스크랩] ‘큐브엔터테인먼트’</a></li>
+                    <li><a href="#">[스크랩] ‘큐브엔터테인먼트’</a></li>
+                  </ol>
+                </div>
+                <div class="miri_room">
+                  <p>miri_room</p>
+                  <div class="miri_room_img"></div>
+                </div>
+                <div class="friends_say">
+                  <p>What friedns say...</p>
+                    <ul>
+                      <li>요즘 너무나 니가 낯설게 느껴져 (모짜렐라<a href="#">진원)</a></li>
+                      <li>어제는 전화도 한번 없었지 (발라더george<a href="#">이동민)</a></li>
+                      <li>어디니 밥은 먹었냐고 묻는 상냥한 니 말 기다렸는데 (cool한 42 <a href="#">박문치)</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </main>
+        <!-- //contents -->
+  
+        </div>
+      <footer id="footer">
+          <h2 class="footer1">정은월드 홈</h2>
+          <!-- 정은월드 홈 -->
+          <div class="footer2">
+            <ul class="tool">
+              <li><a href="#">포토샵</a><img src="./images/graph1.png" alt="graph1"></li>
+              <li><a href="#">일러스트</a><img src="./images/graph2.png" alt="graph1"></li>
+              <li><a href="#">피그마</a><img src="./images/graph3.png" alt="graph1"></li>
+              <li><a href="#">html</a><img src="./images/graph1.png" alt="graph1"></li>
+              <li><a href="#">css</a><img src="./images/graph2.png" alt="graph1"></li>
+              <li><a href="#">jquery</a><img src="./images/graph3.png" alt="graph1"></li>
+            </ul>
+          </div>
+          <!-- tool 설명 -->
+          <div class="footer3">
+            <p>🎧할 수 있어 - 최정은</p>
+          </div>
+          <!-- playlist -->
+          <div class="footer4">
+            <p>선물가게 / 추천 BGM</p>
+            <div class="bgm">
+              <div class="bgm1"></div>
+              <div class="bgm2"></div>
+            </div>
+          </div>
+          <!-- 선물가게 추천 BGM -->
+      </footer>
+     </div>
+  <!-- //wrap_container1 -->
+<!-- //wrap -->
+    </div>
 </body>
+
+<script src="./script/jquery-1.12.3.js"></script>
+<script src="./script/script.js"></script>
 </html>
